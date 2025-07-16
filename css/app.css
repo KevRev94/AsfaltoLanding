@@ -8928,9 +8928,6 @@ html {
 .navbar {
   min-height: 75px;
 }
-.navbar-brand {
-  height: 75px;
-}
 .navbar-brand > img {
   max-height: 100%;
   max-width: 275px;
