@@ -73,11 +73,17 @@ body {
   color: #212529;
   text-align: left;
   background-color: #f8fafc;
-  padding-top: 75px; /* igual a la altura del navbar */
+  padding-top: 65px; /* igual a la altura del navbar */
 }
+
 @media (max-width: 767.98px) {
   body {
-    padding-top: 56px;
+    padding-top: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1315px) {
+  body {
+    padding-top: 25px;
   }
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -8970,6 +8976,14 @@ html {
   min-height: 500px;
   background: no-repeat 50% scroll;
   background-size: cover;
+}
+@media (min-width: 0px) and (max-width: 375px) {
+  body {
+    padding-top: 40px;
+  }
+  .coner-image {
+    min-height: 300px;
+  }
 }
 .content {
   padding-bottom: 150px;
