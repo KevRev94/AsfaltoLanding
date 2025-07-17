@@ -9025,7 +9025,13 @@ html {
     display: flex;
   }
 }
-
+.logo-img {
+  height: auto;
+  width: auto;
+  max-height: 60px;     /* Ajusta el tamaño máximo que deseas */
+  max-width: 275px;     /* O el máximo ancho deseado */
+  object-fit: contain;  /* Asegura que no se deforme en iOS */
+}
 /*!
  * Bootstrap-select v1.6.2 (http://silviomoreto.github.io/bootstrap-select/)
  *
