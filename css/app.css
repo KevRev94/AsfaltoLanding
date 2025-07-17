@@ -73,6 +73,12 @@ body {
   color: #212529;
   text-align: left;
   background-color: #f8fafc;
+  padding-top: 75px; /* igual a la altura del navbar */
+}
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 56px;
+  }
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -8948,7 +8954,7 @@ html {
   background-color: #00004d !important;
 }
 .ea-grayblack-bg {
-  background-color:  #000000 !important;
+  background-color:  #000000 !important;  
 }
 .ea-grey-bg {
   background-color: #e7e7e7 !important;
