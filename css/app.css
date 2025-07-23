@@ -8973,6 +8973,12 @@ html {
   background: no-repeat 50% scroll;
   background-size: cover;
 }
+.img-show-mobile{
+  display: none;
+}
+.img-hide{
+    display:block; 
+}
 @media (min-width: 375.1px) and (max-width: 767.98px) {
   body {
     padding-top: 0px;
@@ -8998,12 +9004,8 @@ html {
     display: block;
   }
 }
-.img-hide{
-    display:block; 
-}
-.img-show-mobile{
-  display: none;
-}
+
+
 .content {
   padding-bottom: 150px;
 }
