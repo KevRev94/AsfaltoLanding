@@ -8987,7 +8987,7 @@ html {
     min-height: 320px;
   }
 }
-@media (min-width: 0px) and (max-width: 430px) {
+@media (min-width: 0px) and (max-width: 375px) {
   body {
     padding-top: 40px;
   }
@@ -8997,6 +8997,9 @@ html {
         height: 100;
         width: 100%;
   }
+}
+@media (min-width: 0px) and (max-width: 430px) {
+  
   .img-hide{
     display:none; 
     }
@@ -9004,7 +9007,6 @@ html {
     display: block;
   }
 }
-
 
 .content {
   padding-bottom: 150px;
