@@ -8987,8 +8987,7 @@ html {
     min-height: 320px;
   }
 }
-
-@media (min-width: 0px) and (max-width: 430px) {
+@media (min-width: 0px) and (max-width: 375px) {
   body {
     padding-top: 40px;
   }
@@ -8996,6 +8995,17 @@ html {
         min-height: 0;
         margin-top: 100px;
         height: 100;
+        width: 100%;
+  }
+}
+@media (min-width: 375px) and (max-width: 430px) {
+  body {
+    padding-top: 40px;
+  }
+  .cover-image {
+        min-height: 0;
+        margin-top: 60px;
+        height: 110;
         width: 100%;
   }
 }
