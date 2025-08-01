@@ -9029,7 +9029,8 @@ html {
   padding-top: 20px;
 }
 .footerText {
-  margin-top: 0.5rem;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1rem !important;
 }
 .footerText a {
   text-align: right;
